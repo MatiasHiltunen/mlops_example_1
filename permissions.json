@@ -1,0 +1,1105 @@
+{
+    "operationsByResource": {
+        "CUSTOMER": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "CONVERTER": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "USER_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "WIDGETS_BUNDLE": [
+            "CREATE",
+            "DELETE",
+            "ALL",
+            "READ",
+            "WRITE"
+        ],
+        "AUDIT_LOG": [
+            "READ",
+            "ALL"
+        ],
+        "NOTIFICATION": [
+            "CREATE",
+            "DELETE",
+            "ALL",
+            "READ",
+            "WRITE"
+        ],
+        "PROFILE": [
+            "WRITE",
+            "ALL"
+        ],
+        "DEVICE": [
+            "ALL",
+            "ASSIGN_TO_TENANT",
+            "READ_ATTRIBUTES",
+            "READ_CREDENTIALS",
+            "DELETE",
+            "READ",
+            "RPC_CALL",
+            "WRITE_CREDENTIALS",
+            "WRITE_TELEMETRY",
+            "WRITE_ATTRIBUTES",
+            "CLAIM_DEVICES",
+            "WRITE",
+            "READ_TELEMETRY",
+            "CHANGE_OWNER",
+            "CREATE"
+        ],
+        "RULE_CHAIN": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "DEVICE_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "TB_RESOURCE": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "INTEGRATION": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "EDGE": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "EDGE_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "OTA_PACKAGE": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "API_USAGE_STATE": [
+            "ALL",
+            "READ",
+            "READ_TELEMETRY"
+        ],
+        "DASHBOARD": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "WHITE_LABELING": [
+            "ALL",
+            "READ",
+            "WRITE"
+        ],
+        "ALL": [
+            "WRITE_ATTRIBUTES",
+            "ALL",
+            "READ_CREDENTIALS",
+            "CREATE",
+            "WRITE",
+            "WRITE_CREDENTIALS",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_TELEMETRY",
+            "ADD_TO_GROUP",
+            "REMOVE_FROM_GROUP",
+            "CHANGE_OWNER",
+            "SHARE_GROUP",
+            "READ",
+            "IMPERSONATE",
+            "RPC_CALL",
+            "READ_ATTRIBUTES",
+            "ASSIGN_TO_TENANT",
+            "CLAIM_DEVICES"
+        ],
+        "VERSION_CONTROL": [
+            "ALL",
+            "READ",
+            "DELETE",
+            "WRITE"
+        ],
+        "ENTITY_VIEW": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "ASSET_PROFILE": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "DEVICE_PROFILE": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "GROUP_PERMISSION": [
+            "CREATE",
+            "DELETE",
+            "ALL",
+            "READ",
+            "WRITE"
+        ],
+        "MOBILE_APP_SETTINGS": [
+            "ALL",
+            "READ",
+            "WRITE"
+        ],
+        "TENANT": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "ENTITY_VIEW_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "DASHBOARD_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "QUEUE": [
+            "READ",
+            "ALL"
+        ],
+        "SCHEDULER_EVENT": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "QUEUE_STATS": [
+            "READ",
+            "ALL"
+        ],
+        "WIDGET_TYPE": [
+            "CREATE",
+            "DELETE",
+            "ALL",
+            "READ",
+            "WRITE"
+        ],
+        "ROLE": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "CUSTOMER_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "ASSET": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "ASSET_GROUP": [
+            "READ_TELEMETRY",
+            "REMOVE_FROM_GROUP",
+            "DELETE",
+            "READ_ATTRIBUTES",
+            "READ",
+            "CREATE",
+            "WRITE_ATTRIBUTES",
+            "ADD_TO_GROUP",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "WRITE",
+            "SHARE_GROUP"
+        ],
+        "ALARM": [
+            "ALL",
+            "READ",
+            "CREATE",
+            "WRITE"
+        ],
+        "USER": [
+            "CREATE",
+            "IMPERSONATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ],
+        "BLOB_ENTITY": [
+            "CREATE",
+            "READ_TELEMETRY",
+            "DELETE",
+            "WRITE_ATTRIBUTES",
+            "READ_ATTRIBUTES",
+            "ALL",
+            "WRITE_TELEMETRY",
+            "CHANGE_OWNER",
+            "READ",
+            "WRITE"
+        ]
+    },
+    "allowedForGroupRoleOperations": [
+        "READ_TELEMETRY",
+        "DELETE",
+        "READ_ATTRIBUTES",
+        "READ",
+        "RPC_CALL",
+        "READ_CREDENTIALS",
+        "CREATE",
+        "WRITE_CREDENTIALS",
+        "WRITE_ATTRIBUTES",
+        "ALL",
+        "WRITE_TELEMETRY",
+        "WRITE",
+        "SHARE_GROUP"
+    ],
+    "allowedForGroupOwnerOnlyOperations": [
+        "CREATE",
+        "DELETE"
+    ],
+    "allowedForGroupOwnerOnlyGroupOperations": [
+        "CREATE",
+        "DELETE",
+        "WRITE_ATTRIBUTES",
+        "WRITE_TELEMETRY",
+        "WRITE"
+    ],
+    "allowedResources": [
+        "EDGE_GROUP",
+        "MOBILE_APP_SETTINGS",
+        "ASSET_PROFILE",
+        "ALL",
+        "BLOB_ENTITY",
+        "QUEUE_STATS",
+        "QUEUE",
+        "ENTITY_VIEW_GROUP",
+        "USER_GROUP",
+        "PROFILE",
+        "ALARM",
+        "VERSION_CONTROL",
+        "WIDGET_TYPE",
+        "TENANT",
+        "DEVICE",
+        "DEVICE_PROFILE",
+        "INTEGRATION",
+        "TB_RESOURCE",
+        "SCHEDULER_EVENT",
+        "ROLE",
+        "CUSTOMER_GROUP",
+        "EDGE",
+        "GROUP_PERMISSION",
+        "RULE_CHAIN",
+        "ASSET",
+        "CONVERTER",
+        "OTA_PACKAGE",
+        "USER",
+        "WIDGETS_BUNDLE",
+        "NOTIFICATION",
+        "CUSTOMER",
+        "DASHBOARD",
+        "WHITE_LABELING",
+        "DEVICE_GROUP",
+        "ENTITY_VIEW",
+        "ASSET_GROUP",
+        "DASHBOARD_GROUP",
+        "API_USAGE_STATE",
+        "AUDIT_LOG"
+    ],
+    "userPermissions": {
+        "genericPermissions": {},
+        "groupPermissions": {
+            "2309c200-f01b-11ef-b139-295490bf863f": {
+                "entityType": "DEVICE",
+                "operations": [
+                    "READ_CREDENTIALS",
+                    "READ_TELEMETRY",
+                    "READ_ATTRIBUTES",
+                    "READ"
+                ]
+            },
+            "3a98fa50-eb4c-11ee-889d-fbb72df75e3e": {
+                "entityType": "ENTITY_VIEW",
+                "operations": [
+                    "READ_CREDENTIALS",
+                    "READ_TELEMETRY",
+                    "READ_ATTRIBUTES",
+                    "READ"
+                ]
+            },
+            "3ca1bee0-f70e-11ee-8e4e-3335ad756794": {
+                "entityType": "DEVICE",
+                "operations": [
+                    "READ_CREDENTIALS",
+                    "READ_TELEMETRY",
+                    "READ_ATTRIBUTES",
+                    "READ"
+                ]
+            },
+            "1d527fd0-eab9-11ef-8c97-effd2914f551": {
+                "entityType": "DASHBOARD",
+                "operations": [
+                    "READ_CREDENTIALS",
+                    "READ_TELEMETRY",
+                    "READ_ATTRIBUTES",
+                    "READ"
+                ]
+            }
+        },
+        "readGroupPermissions": {
+            "CUSTOMER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "EDGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "DASHBOARD": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "USER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            }
+        },
+        "readEntityPermissions": {
+            "CUSTOMER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "CONVERTER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "USER_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "WIDGETS_BUNDLE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "TENANT_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "NOTIFICATION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "RULE_CHAIN": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "TB_RESOURCE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "INTEGRATION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "EDGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "EDGE_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "API_USAGE_STATE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "OTA_PACKAGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DASHBOARD": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "ASSET_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "GROUP_PERMISSION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "TENANT": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "DASHBOARD_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "SCHEDULER_EVENT": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "QUEUE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "QUEUE_STATS": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "WIDGET_TYPE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ROLE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "CUSTOMER_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "USER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ALARM": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "BLOB_ENTITY": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            }
+        },
+        "readAttrPermissions": {
+            "CUSTOMER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "CONVERTER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "USER_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "WIDGETS_BUNDLE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "TENANT_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "NOTIFICATION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "RULE_CHAIN": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "TB_RESOURCE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "INTEGRATION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "EDGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "EDGE_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "API_USAGE_STATE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "OTA_PACKAGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DASHBOARD": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "ASSET_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "GROUP_PERMISSION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "TENANT": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "DASHBOARD_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "SCHEDULER_EVENT": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "QUEUE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "QUEUE_STATS": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "WIDGET_TYPE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ROLE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "CUSTOMER_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "USER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ALARM": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "BLOB_ENTITY": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            }
+        },
+        "readTsPermissions": {
+            "CUSTOMER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "CONVERTER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "USER_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "WIDGETS_BUNDLE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "TENANT_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "NOTIFICATION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "RULE_CHAIN": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "2309c200-f01b-11ef-b139-295490bf863f"
+                    },
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3ca1bee0-f70e-11ee-8e4e-3335ad756794"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "TB_RESOURCE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "INTEGRATION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "EDGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "EDGE_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "API_USAGE_STATE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "OTA_PACKAGE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DASHBOARD": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "ASSET_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "GROUP_PERMISSION": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "DEVICE_PROFILE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "TENANT": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ENTITY_VIEW_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "3a98fa50-eb4c-11ee-889d-fbb72df75e3e"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "DASHBOARD_GROUP": {
+                "entityGroupIds": [
+                    {
+                        "entityType": "ENTITY_GROUP",
+                        "id": "1d527fd0-eab9-11ef-8c97-effd2914f551"
+                    }
+                ],
+                "hasGenericRead": false
+            },
+            "SCHEDULER_EVENT": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "QUEUE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "QUEUE_STATS": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "WIDGET_TYPE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ROLE": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "CUSTOMER_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET_GROUP": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ASSET": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "USER": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "ALARM": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            },
+            "BLOB_ENTITY": {
+                "entityGroupIds": [],
+                "hasGenericRead": false
+            }
+        }
+    },
+    "userOwnerId": {
+        "entityType": "TENANT",
+        "id": "82737eb0-e429-11e9-ac8f-fdcdec2c26a2"
+    }
+}
