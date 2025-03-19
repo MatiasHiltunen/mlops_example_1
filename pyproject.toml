@@ -8,6 +8,7 @@ dependencies = [
     "aiohttp>=3.11.13",
     "asyncio>=3.4.3",
     "fastapi[standard]>=0.115.7",
+    "object-store-python>=0.1.10",
     "polars>=1.23.0",
     "python-dotenv>=1.0.1",
     "requests>=2.32.3",
